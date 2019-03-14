@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <type name="Magento\SalesRule\Model\Rule\Metadata\ValueProvider">
+        <plugin name="giodev_salesrule_valueprovider" type="Giodev\SalesRule\Plugin\Model\Rule\Metadata\ValueProvider" sortOrder="10"/>
+    </type> 
+    <type name="Magento\SalesRule\Model\Rule\Action\Discount\CalculatorFactory">
+        <plugin name="giodev_salesrule_calculatorfactory" type="Giodev\SalesRule\Plugin\Model\Rule\Action\Discount\CalculatorFactory" sortOrder="10"/>
+    </type>
+</config>
